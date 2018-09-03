@@ -8,7 +8,7 @@ end
 end
 
 def current_player(turn_count)
-if turn_count % 2 == 0
+if index % 2 == 0
   puts "current_player"
   end
 end
