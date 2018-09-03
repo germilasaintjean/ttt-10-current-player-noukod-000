@@ -8,9 +8,7 @@ end
 end
 
 def current_player(board)
-if counter % 2 == 0
-true
-else
-false
-  end
+if current_player % 2 = 0 
+  2.even "X" || "O" 
+   end
 end
