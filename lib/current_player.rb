@@ -1,8 +1,8 @@
 def turn_count(board)
+  counter = 0
   board.each do |index|
-    counter = 0
-  if (index == "X" || index == "O")
-    counter = counter + 1
+    if (index == "X" || index == "O")
+    counter += 1
   end
 end
 return counter
