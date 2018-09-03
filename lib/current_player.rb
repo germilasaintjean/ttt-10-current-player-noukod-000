@@ -12,6 +12,6 @@ if turn_count % 2 == 0
   even
 else
 returns odd
-  
+
   end
 end
