@@ -8,10 +8,9 @@ end
 end
 
 def current_player(board)
-if turn_count % 2 == 0
-  even
+if counter % 2 == 0
+true
 else
-returns odd
-
+false
   end
 end
