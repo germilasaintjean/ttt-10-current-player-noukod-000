@@ -9,6 +9,9 @@ end
 
 def current_player(board)
 if turn_count % 2 == 0
-  puts "current_player"
+  even
+else
+returns odd
+  
   end
 end
