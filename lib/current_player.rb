@@ -7,8 +7,8 @@ def turn_count(board)
 end
 end
 
-def current_player(turn_count)
-if move % 2 == 0
+def current_player(board)
+if turn_count % 2 == 0
   puts "current_player"
   end
 end
