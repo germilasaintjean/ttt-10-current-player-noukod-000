@@ -8,7 +8,6 @@ end
 end
 
 def current_player(board)
-if current_player % 2 = 0
-  2.even "X" || "O"
+if turn_count(board) % 2 == 0? "X" : "O" 
    end
 end
