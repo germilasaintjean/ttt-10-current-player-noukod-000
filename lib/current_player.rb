@@ -8,7 +8,6 @@ end
 end
 
 def current_player(board)
-if index % counter == 0
-  return current-player
-
-end
+if turn_count % counter == 0
+  puts "current_player"
+  end
