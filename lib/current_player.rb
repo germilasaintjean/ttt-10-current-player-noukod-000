@@ -1,10 +1,9 @@
-def turn_count(turn(board))
-each == each_char { |"X"|  } || each_char { |"O"|  }
-return turn(board
-end
-counter = 0 
-if each == ""
-  counter = counter + 1
-end
- def current_player
- end
+def turn_count(board)
+  counter = 0 
+  board.each do |board|
+    puts "#{counter}"
+    counter += 1
+  end
+
+#def current_player(game_board)
+#end
