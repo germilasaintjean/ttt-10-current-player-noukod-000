@@ -9,6 +9,6 @@ end
 
 def current_player(board)
 if index % counter == 0
-  return current-player  
-  
+  return current-player
+
 end
